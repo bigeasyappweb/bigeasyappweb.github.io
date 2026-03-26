@@ -215,51 +215,24 @@ a:hover {
   flex: 0 0 auto;
 }
 
-/* Google Play Custom Button */
+/* Google Play Badge */
 .gplay-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.75rem;
-  background: #000;
-  color: var(--white);
-  padding: 0.85rem 1.75rem;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  text-decoration: none;
+  display: inline-block;
   transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 12px;
 }
 
 .gplay-btn:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   opacity: 1;
-  text-decoration: none;
 }
 
-.gplay-btn svg {
-  width: 28px;
-  height: 28px;
-  flex-shrink: 0;
-}
-
-.gplay-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-}
-
-.gplay-small {
-  font-size: 0.6rem;
-  font-weight: 400;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  opacity: 0.85;
-}
-
-.gplay-big {
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+.gplay-btn img {
+  display: block;
+  height: 72px;
+  width: auto;
+  border-radius: 10px;
 }
 
 /* ===== Phone Mockup ===== */
@@ -424,7 +397,7 @@ a:hover {
 
 .perfect-card .card-emoji {
   width: 56px;
-  height: 56px;
+  height: 72px;
   margin: 0 auto 1rem;
   display: flex;
   align-items: center;
