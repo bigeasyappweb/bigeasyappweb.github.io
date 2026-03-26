@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big Homescreen — The Simple Android Launcher for Seniors</title>
+  <meta name="description" content="Big Homescreen is the Android home screen designed for clarity, comfort, and confidence. Big display, simple apps, emergency SOS — everything easier.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="navbar" role="banner">
+    <div class="container">
+      <a href="/" class="nav-brand" aria-label="Big Homescreen Home">
+        <img src="resources/ic_launcher_play_store.svg" alt="" width="36" height="36">
+        <span>Big Homescreen</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      <nav>
+        <ul class="nav-links" role="list">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#screenshots">Screenshots</a></li>
+          <li><a href="#download" class="nav-cta">Download</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <img src="resources/ic_launcher_play_store.svg" alt="Big Homescreen app icon" class="hero-icon" width="80" height="80">
+          <h1>Big Homescreen</h1>
+          <p class="hero-tagline">Everything bigger. Everything easier.</p>
+          <p class="hero-description">The Android home screen designed for clarity, comfort, and confidence.</p>
+          <a href="https://play.google.com/store/apps/details?id=app.bighomescreen.launcher" class="play-badge-wrapper" target="_blank" rel="noopener">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60" width="155">
+          </a>
+        </div>
+        <div class="hero-visual">
+          <div class="phone-mockup">
+            <img src="resources/Home_Big.jpg" alt="Big Homescreen home screen showing large clock, weather, and favorite apps" width="264" height="572" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Features ===== -->
+    <section class="section" id="features">
+      <div class="container">
+        <h2 class="section-title">Designed for Real Life</h2>
+        <p class="section-subtitle">Every feature built with clarity and ease of use in mind.</p>
+        <div class="features-grid">
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">🕐</span>
+            <h3>Big, Clear Display</h3>
+            <p>Time, date, and weather at a glance — large enough to read from across the room.</p>
+          </div>
+          <div class="feature-card sos">
+            <span class="feature-icon" aria-hidden="true">🆘</span>
+            <h3>Emergency SOS</h3>
+            <p>One tap to call for help. Always visible, always ready when you need it most.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">📱</span>
+            <h3>Simple App Drawer</h3>
+            <p>All your apps in a clean, easy-to-navigate grid. No clutter, no confusion.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">🔦</span>
+            <h3>Quick Tools</h3>
+            <p>Flashlight, magnifier, camera, and more — one tap away in the tools panel.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">🔤</span>
+            <h3>Adjustable Font Size</h3>
+            <p>Make text bigger or smaller to match your comfort. Your phone, your way.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">✅</span>
+            <h3>Easy Setup</h3>
+            <p>Step-by-step guided setup. Ready to use in under a minute — no tech skills needed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Screenshots ===== -->
+    <section class="section section-light" id="screenshots">
+      <div class="container">
+        <h2 class="section-title">See It in Action</h2>
+        <p class="section-subtitle">A clean, familiar experience on every screen.</p>
+
+        <!-- Desktop: row layout -->
+        <div class="screenshots-row">
+          <div class="screenshot-item">
+            <div class="phone-mockup">
+              <img src="resources/Home_Big.jpg" alt="Home screen with large clock and weather display" width="264" height="572" loading="lazy">
+            </div>
+            <p class="screenshot-label">Home Screen</p>
+          </div>
+          <div class="screenshot-item">
+            <div class="phone-mockup">
+              <img src="resources/Info_Big.jpg" alt="Weather details and news feed" width="264" height="572" loading="lazy">
+            </div>
+            <p class="screenshot-label">Weather &amp; News</p>
+          </div>
+          <div class="screenshot-item">
+            <div class="phone-mockup">
+              <img src="resources/Tools_Big.jpg" alt="Quick tools panel with flashlight, magnifier, and SOS" width="264" height="572" loading="lazy">
+            </div>
+            <p class="screenshot-label">Quick Tools &amp; SOS</p>
+          </div>
+          <div class="screenshot-item">
+            <div class="phone-mockup">
+              <img src="resources/Appdrawer_Big.jpg" alt="App drawer with clear grid of installed apps" width="264" height="572" loading="lazy">
+            </div>
+            <p class="screenshot-label">App Drawer</p>
+          </div>
+        </div>
+
+        <!-- Mobile: carousel -->
+        <div class="screenshots-carousel" role="region" aria-label="Screenshots carousel">
+          <div class="screenshot-item">
+            <div class="phone-mockup">
+              <img src="resources/Home_Big.jpg" alt="Home screen with large clock and weather display" width="264" height="572" loading="lazy">
+            </div>
+            <p class="screenshot-label">Home Screen</p>
+          </div>
+          <div class="screenshot-item">
+            <div class="phone-mockup">
+              <img src="resources/Info_Big.jpg" alt="Weather details and news feed" width="264" height="572" loading="lazy">
+            </div>
+            <p class="screenshot-label">Weather &amp; News</p>
+          </div>
+          <div class="screenshot-item">
+            <div class="phone-mockup">
+              <img src="resources/Tools_Big.jpg" alt="Quick tools panel with flashlight, magnifier, and SOS" width="264" height="572" loading="lazy">
+            </div>
+            <p class="screenshot-label">Quick Tools &amp; SOS</p>
+          </div>
+          <div class="screenshot-item">
+            <div class="phone-mockup">
+              <img src="resources/Appdrawer_Big.jpg" alt="App drawer with clear grid of installed apps" width="264" height="572" loading="lazy">
+            </div>
+            <p class="screenshot-label">App Drawer</p>
+          </div>
+        </div>
+        <div class="carousel-dots" aria-label="Screenshot navigation">
+          <button class="carousel-dot active" aria-label="View Home Screen screenshot"></button>
+          <button class="carousel-dot" aria-label="View Weather and News screenshot"></button>
+          <button class="carousel-dot" aria-label="View Quick Tools screenshot"></button>
+          <button class="carousel-dot" aria-label="View App Drawer screenshot"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Perfect For ===== -->
+    <section class="section" id="perfect-for">
+      <div class="container">
+        <h2 class="section-title">Perfect For</h2>
+        <p class="section-subtitle">Built for the people who matter most — and those who care for them.</p>
+        <div class="perfect-grid">
+          <div class="perfect-card">
+            <span class="card-emoji" aria-hidden="true">👵</span>
+            <h3>Parents &amp; Grandparents</h3>
+            <p>A phone that feels simple and familiar. Big text, clear layout, and everything within easy reach.</p>
+          </div>
+          <div class="perfect-card">
+            <span class="card-emoji" aria-hidden="true">👨‍👩‍👧</span>
+            <h3>Adult Children</h3>
+            <p>Set it up in under a minute for your loved ones. No more confusing tech support calls.</p>
+          </div>
+          <div class="perfect-card">
+            <span class="card-emoji" aria-hidden="true">✨</span>
+            <h3>Anyone Who Wants Simplicity</h3>
+            <p>Less clutter, less distraction. Just the essentials, beautifully organized.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA / Download ===== -->
+    <section class="section section-dark cta-section" id="download">
+      <div class="container">
+        <h2>Ready to Simplify?</h2>
+        <p class="section-subtitle">Give your Android phone a home screen that just makes sense.</p>
+        <a href="https://play.google.com/store/apps/details?id=app.bighomescreen.launcher" class="play-badge-wrapper" target="_blank" rel="noopener">
+          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60" width="155">
+        </a>
+        <p class="cta-email">Questions? Reach us at <a href="mailto:support@bigeasyapp.com">support@bigeasyapp.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; 2026 Big Homescreen. All rights reserved.</p>
+      <ul class="footer-links" role="list">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="mailto:support@bigeasyapp.com">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
